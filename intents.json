@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "How can I make a budget",
+        "budget planning",
+        "help me create a budget",
+        "how to manage my money"
+      ],
+      "responses": [
+        "To create a budget, track your income and expenses, then allocate savings."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": [
+        "How do I check my credit score",
+        "credit score",
+        "check my credit score"
+      ],
+      "responses": [
+        "You can check your credit score for free on Credit Karma or Credit Sesame."
+      ]
+    },
+    {
+      "tag": "project_info",
+      "patterns": [
+        "what is this project",
+        "project details",
+        "tell me about this project",
+        "about the project",
+        "project information"
+      ],
+      "responses": [
+        "This is an NLP-based chatbot project developed using Python and NLTK.",
+        "This project demonstrates how Natural Language Processing can be used to build interactive chatbots.",
+        "It is an academic project implemented with Python, NLP techniques, and Streamlit."
+      ]
+    },
+    {
+      "tag": "technology_used",
+      "patterns": [
+        "technologies used",
+        "what technologies are used",
+        "tools used in this project",
+        "what is used to build this chatbot"
+      ],
+      "responses": [
+        "This chatbot is built using Python, NLTK, and Streamlit.",
+        "Python and Natural Language Processing libraries are used in this project."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    }
+  ]
+}
